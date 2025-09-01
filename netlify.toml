@@ -2,16 +2,7 @@
   command = "echo 'Static site build'"
   publish = "."
 
-[build.environment]
-  PYTHON_VERSION = "3.9"
-  CLAUDE_API_KEY = ""
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-
-[dev]
-  command = "python app.py"
-  port = 5000
-  publish = "."
