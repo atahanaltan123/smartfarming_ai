@@ -1,0 +1,7 @@
+{
+  "yield_accuracy": 0.25,
+  "quality_accuracy": 0.25,
+  "success_mse": 0.08315561131479586,
+  "success_r2": 0.06065392471283948,
+  "test_samples": 4
+}

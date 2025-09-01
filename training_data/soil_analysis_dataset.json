@@ -1,0 +1,179 @@
+{
+  "soil_samples": [
+    {
+      "id": "S001",
+      "region": "marmara",
+      "climate": "mediterranean",
+      "irrigation": "irrigated",
+      "soil_values": {
+        "pH": 6.8,
+        "organic_matter": 2.1,
+        "nitrogen": 15,
+        "phosphorus": 25,
+        "potassium": 180,
+        "calcium": 1200,
+        "magnesium": 150,
+        "iron": 8,
+        "zinc": 1.2
+      },
+      "crop_success": {
+        "tomato": {"yield": "high", "quality": "excellent", "success_rate": 0.95},
+        "cucumber": {"yield": "high", "quality": "very_good", "success_rate": 0.92},
+        "pepper": {"yield": "medium", "quality": "good", "success_rate": 0.85},
+        "strawberry": {"yield": "low", "quality": "poor", "success_rate": 0.45}
+      }
+    },
+    {
+      "id": "S002",
+      "region": "akdeniz",
+      "climate": "mediterranean",
+      "irrigation": "drip",
+      "soil_values": {
+        "pH": 7.2,
+        "organic_matter": 1.8,
+        "nitrogen": 12,
+        "phosphorus": 18,
+        "potassium": 220,
+        "calcium": 1400,
+        "magnesium": 180,
+        "iron": 12,
+        "zinc": 2.1
+      },
+      "crop_success": {
+        "tomato": {"yield": "very_high", "quality": "excellent", "success_rate": 0.98},
+        "cucumber": {"yield": "high", "quality": "excellent", "success_rate": 0.95},
+        "pepper": {"yield": "high", "quality": "very_good", "success_rate": 0.90},
+        "olive": {"yield": "medium", "quality": "good", "success_rate": 0.75}
+      }
+    },
+    {
+      "id": "S003",
+      "region": "karadeniz",
+      "climate": "oceanic",
+      "irrigation": "rainfed",
+      "soil_values": {
+        "pH": 5.8,
+        "organic_matter": 4.2,
+        "nitrogen": 28,
+        "phosphorus": 35,
+        "potassium": 250,
+        "calcium": 800,
+        "magnesium": 120,
+        "iron": 15,
+        "zinc": 3.2
+      },
+      "crop_success": {
+        "tea": {"yield": "very_high", "quality": "excellent", "success_rate": 0.98},
+        "strawberry": {"yield": "high", "quality": "excellent", "success_rate": 0.92},
+        "blueberry": {"yield": "high", "quality": "very_good", "success_rate": 0.88},
+        "tomato": {"yield": "low", "quality": "poor", "success_rate": 0.35}
+      }
+    },
+    {
+      "id": "S004",
+      "region": "ic_anadolu",
+      "climate": "continental",
+      "irrigation": "sprinkler",
+      "soil_values": {
+        "pH": 8.1,
+        "organic_matter": 1.2,
+        "nitrogen": 8,
+        "phosphorus": 12,
+        "potassium": 150,
+        "calcium": 1800,
+        "magnesium": 200,
+        "iron": 6,
+        "zinc": 0.8
+      },
+      "crop_success": {
+        "wheat": {"yield": "medium", "quality": "good", "success_rate": 0.75},
+        "barley": {"yield": "medium", "quality": "good", "success_rate": 0.70},
+        "sunflower": {"yield": "low", "quality": "fair", "success_rate": 0.60},
+        "tomato": {"yield": "very_low", "quality": "poor", "success_rate": 0.25}
+      }
+    },
+    {
+      "id": "S005",
+      "region": "ege",
+      "climate": "mediterranean",
+      "irrigation": "irrigated",
+      "soil_values": {
+        "pH": 7.0,
+        "organic_matter": 2.8,
+        "nitrogen": 20,
+        "phosphorus": 30,
+        "potassium": 200,
+        "calcium": 1100,
+        "magnesium": 160,
+        "iron": 10,
+        "zinc": 1.8
+      },
+      "crop_success": {
+        "tomato": {"yield": "very_high", "quality": "excellent", "success_rate": 0.96},
+        "cucumber": {"yield": "high", "quality": "excellent", "success_rate": 0.94},
+        "pepper": {"yield": "high", "quality": "very_good", "success_rate": 0.88},
+        "olive": {"yield": "high", "quality": "excellent", "success_rate": 0.85}
+      }
+    }
+  ],
+  "crop_requirements": {
+    "tomato": {
+      "optimal_pH": {"min": 6.0, "max": 7.5},
+      "optimal_organic_matter": {"min": 2.0, "max": 4.0},
+      "optimal_nitrogen": {"min": 15, "max": 25},
+      "optimal_phosphorus": {"min": 20, "max": 35},
+      "optimal_potassium": {"min": 150, "max": 250}
+    },
+    "cucumber": {
+      "optimal_pH": {"min": 6.0, "max": 7.5},
+      "optimal_organic_matter": {"min": 2.0, "max": 4.0},
+      "optimal_nitrogen": {"min": 15, "max": 25},
+      "optimal_phosphorus": {"min": 20, "max": 35},
+      "optimal_potassium": {"min": 150, "max": 250}
+    },
+    "pepper": {
+      "optimal_pH": {"min": 6.5, "max": 7.5},
+      "optimal_organic_matter": {"min": 2.0, "max": 4.0},
+      "optimal_nitrogen": {"min": 15, "max": 25},
+      "optimal_phosphorus": {"min": 20, "max": 35},
+      "optimal_potassium": {"min": 150, "max": 250}
+    },
+    "strawberry": {
+      "optimal_pH": {"min": 5.5, "max": 6.5},
+      "optimal_organic_matter": {"min": 3.0, "max": 5.0},
+      "optimal_nitrogen": {"min": 20, "max": 30},
+      "optimal_phosphorus": {"min": 25, "max": 40},
+      "optimal_potassium": {"min": 200, "max": 300}
+    },
+    "olive": {
+      "optimal_pH": {"min": 6.5, "max": 8.0},
+      "optimal_organic_matter": {"min": 1.5, "max": 3.0},
+      "optimal_nitrogen": {"min": 10, "max": 20},
+      "optimal_phosphorus": {"min": 15, "max": 25},
+      "optimal_potassium": {"min": 150, "max": 250}
+    },
+    "tea": {
+      "optimal_pH": {"min": 5.5, "max": 6.5},
+      "optimal_organic_matter": {"min": 3.0, "max": 5.0},
+      "optimal_nitrogen": {"min": 25, "max": 35},
+      "optimal_phosphorus": {"min": 30, "max": 45},
+      "optimal_potassium": {"min": 250, "max": 350}
+    }
+  },
+  "soil_quality_ranges": {
+    "pH": {
+      "very_acidic": {"min": 0, "max": 5.0, "color": "danger", "description": "Çok asit - kireçleme gerekli"},
+      "acidic": {"min": 5.0, "max": 6.0, "color": "warning", "description": "Asit - hafif kireçleme önerilir"},
+      "neutral": {"min": 6.0, "max": 7.5, "color": "success", "description": "Nötr - ideal değer"},
+      "alkaline": {"min": 7.5, "max": 8.5, "color": "warning", "description": "Bazik - organik madde artırımı önerilir"},
+      "very_alkaline": {"min": 8.5, "max": 14, "color": "danger", "description": "Çok bazik - özel tedavi gerekli"}
+    },
+    "organic_matter": {
+      "very_low": {"min": 0, "max": 1.0, "color": "danger", "description": "Çok düşük - organik madde artırımı gerekli"},
+      "low": {"min": 1.0, "max": 2.0, "color": "warning", "description": "Düşük - organik madde artırımı önerilir"},
+      "medium": {"min": 2.0, "max": 4.0, "color": "success", "description": "Orta - iyi durum"},
+      "high": {"min": 4.0, "max": 6.0, "color": "info", "description": "Yüksek - çok iyi durum"},
+      "very_high": {"min": 6.0, "max": 10, "color": "warning", "description": "Çok yüksek - dikkat gerekli"}
+    }
+  }
+}

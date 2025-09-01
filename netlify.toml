@@ -1,0 +1,23 @@
+[build]
+  command = "pip install -r requirements.txt && python app.py"
+  functions = "netlify/functions"
+  publish = "."
+
+[build.environment]
+  PYTHON_VERSION = "3.9"
+  CLAUDE_API_KEY = ""
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[dev]
+  command = "python app.py"
+  port = 5000
+  publish = "."

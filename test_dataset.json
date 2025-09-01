@@ -1,0 +1,92 @@
+[
+  {
+    "id": "test_1",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Bu domates yaprağında hangi hastalık var?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Bu domates yaprağında **Erken Yaprak Yanıklığı** hastalığı tespit edilmiştir. Hastalık fungal kökenli olup, yapraklarda kahverengi lekeler şeklinde görülmektedir. Şiddet seviyesi orta olup, acil tedavi gerektirmektedir. Güvenilirlik oranı: %95"
+      }
+    ]
+  },
+  {
+    "id": "test_2",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Salatalık yaprağında ne tür bir hastalık belirtisi görüyorsunuz?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Salatalık yaprağında **Külleme** hastalığı belirtileri gözlenmektedir. Yaprakların üst yüzeyinde beyaz-gri toz benzeri lekeler bulunmaktadır. Bu fungal hastalık nemli ortamlarda yayılır. Şiddet seviyesi düşük-orta arasında. Güvenilirlik oranı: %88"
+      }
+    ]
+  },
+  {
+    "id": "test_3",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Biber bitkisinde hangi hastalık tespit edilmiştir?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Biber bitkisinde **Bakteriyel Leke** hastalığı tespit edilmiştir. Yapraklarda küçük, koyu renkli, su ile ıslanmış görünümlü lekeler bulunmaktadır. Bu bakteriyel hastalık yüksek nem ve sıcaklıkta yayılır. Şiddet seviyesi yüksek. Güvenilirlik oranı: %92"
+      }
+    ]
+  },
+  {
+    "id": "test_4",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Patlıcan yapraklarında ne tür bir zararlı böcek istilası var?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Patlıcan yapraklarında **Yaprak Bitleri** istilası tespit edilmiştir. Yaprakların alt yüzeyinde küçük, yeşil-sarı renkli böcekler görülmektedir. Yapraklarda sararma ve kıvrılma belirtileri mevcuttur. Şiddet seviyesi orta. Güvenilirlik oranı: %85"
+      }
+    ]
+  },
+  {
+    "id": "test_5",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Çilek bitkisinde hangi viral hastalık belirtileri gözleniyor?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Çilek bitkisinde **Çilek Mozaik Virüsü** belirtileri gözlenmektedir. Yapraklarda sarı-yeşil mozaik desenli lekeler, yaprak deformasyonu ve bodur büyüme görülmektedir. Bu viral hastalık böcekler aracılığıyla yayılır. Şiddet seviyesi kritik. Güvenilirlik oranı: %90"
+      }
+    ]
+  }
+]

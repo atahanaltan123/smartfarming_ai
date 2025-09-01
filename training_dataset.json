@@ -1,0 +1,86 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Bu bitki görüntüsünü analiz et:\n                                    \nBitki Türü: Domates\nMevsim: yaz\nBölge: Akdeniz\n\nLütfen hastalık tespiti yap ve detaylı analiz ver."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "**Hastalık Tespiti**: Erken Yaprak Yanıklığı\n\n**Hastalık Türü**: Fungal hastalık\n\n**Belirtiler**: Kahverengi lekeler, Yaprak dökülmesi, Gövde lezyonları\n\n**Şiddet**: High\n\n**Tedavi Önerileri**: Fungisit uygulaması, Hastalıklı yaprakların temizlenmesi\n\n**Önleyici Tedbirler**: Havalandırma, Sulama kontrolü, Düzenli gözlem\n\n**Uzman Notları**: Alternaria solani mantarı neden olur\n\n**Güvenilirlik**: %95\n\n**İklim Koşulları**: Sıcaklık 20-30°C, Nem >80%\n\n**Toprak Koşulları**: pH 6.0-7.0, Drenaj good"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Bu bitki görüntüsünü analiz et:\n                                    \nBitki Türü: Salatalık\nMevsim: ilkbahar\nBölge: Ege\n\nLütfen hastalık tespiti yap ve detaylı analiz ver."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "**Hastalık Tespiti**: Külleme\n\n**Hastalık Türü**: Fungal hastalık\n\n**Belirtiler**: Beyaz pudra benzeri leke, Yaprak sararması\n\n**Şiddet**: Medium\n\n**Tedavi Önerileri**: Sülfür bazlı ilaçlar, Biyolojik kontrol\n\n**Önleyici Tedbirler**: Düzenli aralık, Havalandırma\n\n**Uzman Notları**: Podosphaera xanthii mantarı\n\n**Güvenilirlik**: %92\n\n**İklim Koşulları**: Sıcaklık 15-25°C, Nem 60-80%\n\n**Toprak Koşulları**: pH 6.0-7.5, Drenaj moderate"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Bu bitki görüntüsünü analiz et:\n                                    \nBitki Türü: Biber\nMevsim: yaz\nBölge: Güneydoğu\n\nLütfen hastalık tespiti yap ve detaylı analiz ver."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "**Hastalık Tespiti**: Bakteriyel Leke\n\n**Hastalık Türü**: Bacterial hastalık\n\n**Belirtiler**: Küçük su damlası lezyonları, Yaprak delinmesi\n\n**Şiddet**: High\n\n**Tedavi Önerileri**: Bakır bazlı ilaçlar, Hijyenik önlemler\n\n**Önleyici Tedbirler**: Tohum dezenfeksiyonu, Crop rotation\n\n**Uzman Notları**: Xanthomonas campestris bakterisi\n\n**Güvenilirlik**: %88\n\n**İklim Koşulları**: Sıcaklık 25-35°C, Nem 70-90%\n\n**Toprak Koşulları**: pH 5.5-7.0, Drenaj excellent"
+      }
+    ]
+  },
+  {
+    "type": "image_training",
+    "data": {
+      "image_file": "domates_erken_yanik_1.jpg",
+      "plant_type": "Domates",
+      "disease": "Erken Yaprak Yanıklığı",
+      "severity": "High",
+      "confidence": 0.95
+    },
+    "created": "2025-08-29"
+  },
+  {
+    "type": "image_training",
+    "data": {
+      "image_file": "salatalik_kulleme_1.jpg",
+      "plant_type": "Salatalık",
+      "disease": "Külleme",
+      "severity": "Medium",
+      "confidence": 0.92
+    },
+    "created": "2025-08-29"
+  },
+  {
+    "type": "image_training",
+    "data": {
+      "image_file": "biber_bakteriyel_1.jpg",
+      "plant_type": "Biber",
+      "disease": "Bakteriyel Leke",
+      "severity": "High",
+      "confidence": 0.88
+    },
+    "created": "2025-08-29"
+  }
+]
