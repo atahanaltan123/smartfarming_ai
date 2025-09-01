@@ -1,16 +1,10 @@
 [build]
-  command = "pip install -r requirements.txt && python app.py"
-  functions = "netlify/functions"
+  command = "echo 'Static site build'"
   publish = "."
 
 [build.environment]
   PYTHON_VERSION = "3.9"
   CLAUDE_API_KEY = ""
-
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
 
 [[redirects]]
   from = "/*"
